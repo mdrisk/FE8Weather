@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang = "en">
+<head>
+  <meta charset="utf-8">
+  <title>The Weather Update</title>
+  <meta name="description" content="The Weather Update">
+  <meta name="author" content="Matthew Risk">
+
+  <link rel="stylesheet" href="WeatherUpdate.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="outer">
+     <div class="inner">
+      Weather Update!
+      </div>
+      <div class="inner_mid">
+      <div id="location" class="inner">
+
+        </div>
+        <div id="weather" class="inner">
+          <i id="weather_icon" class="fa fa-spinner fa-pulse fa-2x fa-fw"></i>
+  <span class="sr-only">Loading...</span>
+         <div><p onclick="hider()" id="ctemp"></p><p onclick="hider()" id="ftemp" class="hide"></p></div></div>
+      </div>
+     <div class = "foot">
+    <p>By <a href="https://codepen.io/mdrisk/full/LzaYzb/">Matt Risk</a></p>
+  </div>
+    </div>
+
+
+
+
+  </div>
+
+
+</body>
+  <script type="text/javascript" src="WeatherUpdate.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</html>
